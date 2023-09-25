@@ -4,16 +4,13 @@ import Card from './Card'
 
 export default props => {
 
-    const {min, max} = props
-    const aleatorio = Math.floor(Math.random() * (max - min) + min)
-
     return (
 
         <Card title='Media dos numeros' green>
             <div >
                 <span>
                     <span>Resultado:</span>
-                    <strong>{aleatorio}</strong>
+                    <strong>{11}</strong>
                 </span>
             </div>
         </Card>
